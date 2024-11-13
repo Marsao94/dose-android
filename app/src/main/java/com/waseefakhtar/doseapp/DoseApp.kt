@@ -212,7 +212,7 @@ fun DoseFAB(navController: NavController, analyticsHelper: AnalyticsHelper) {
     )
 }
 
-@Preview(showBackground = true)
+@Preview(showBackground = true, apiLevel = 33)
 @Composable
 fun DefaultPreview() {
     val context = LocalContext.current
